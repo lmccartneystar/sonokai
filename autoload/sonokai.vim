@@ -8,7 +8,7 @@
 
 function! sonokai#get_configuration() "{{{
   return {
-        \ 'style': get(g:, 'sonokai_style', 'default'),
+        \ 'style': get(g:, 'sonokai_style', 'lonokai'),
         \ 'colors_override': get(g:, 'sonokai_colors_override', {}),
         \ 'transparent_background': get(g:, 'sonokai_transparent_background', 0),
         \ 'dim_inactive_windows': get(g:, 'sonokai_dim_inactive_windows', 0),
